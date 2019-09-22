@@ -8,26 +8,26 @@ The content of this site is managed by Sanity.io. Visit https://zerion-ai-site-6
 
 # Running Your Site Locally
 
-1. Install [Node.js and npm](https://nodejs.org/en/)
+1.  Install [Node.js and npm](https://nodejs.org/en/)
 
-1. Install npm dependencies:
+1.  Install npm dependencies:
 
         npm install
 
-1. get "netlify-api-key" from project menu in [Stackbit dashboard](https://app.stackbit.com/dashboard)
+1.  get "netlify-api-key" from project menu in [Stackbit dashboard](https://app.stackbit.com/dashboard)
 
-1. run the following command to assign this key to `STACKBIT_API_KEY` environment variable:
+1.  run the following command to assign this key to `STACKBIT_API_KEY` environment variable:
 
         export STACKBIT_API_KEY={stackbit_netlify_api_key}
 
-1. run the following command to fetch site contents from Sanity:
+1.  run the following command to fetch site contents from Sanity:
 
         npx @stackbit/stackbit-pull --stackbit-pull-api-url=https://api.stackbit.com/pull/5d867652227ccd001050be2e
 
-1. [Optional] Running Sanity Studio locally: install sanity-cli `npm install -g sanity-cli` and run `sanity start` inside the `/studio` directory
+1.  [Optional] Running Sanity Studio locally: install sanity-cli `npm install -g sanity-cli` and run `sanity start` inside the `/studio` directory
 
-1. Starts a development server
+1.  Starts a development server
 
         npm run develop
 
-1. Browse to [http://localhost:8000/](http://localhost:8000/)
+1.  Browse to [http://localhost:8000/](http://localhost:8000/)
