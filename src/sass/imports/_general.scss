@@ -279,10 +279,26 @@ a.button {
   padding-right: 40px;
 }
 
+
 a.button.large {
   height: auto;
   padding-bottom: 0.625em;
   padding-top: 0.625em;
+}
+
+.button.xlarge {
+  height: 4em;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.button.xlarge {
+  height: auto;
+  padding-left: 0.725em;
+  padding-right: 0.725em;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button.secondary {

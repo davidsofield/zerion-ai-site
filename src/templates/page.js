@@ -1,6 +1,8 @@
 import React from 'react'
 import _ from 'lodash'
 
+import { Link } from 'gatsby'
+
 import { Layout } from '../components/index'
 import { safePrefix, htmlToReact } from '../utils'
 
@@ -36,7 +38,11 @@ export default class Page extends React.Component {
 							<div className="post-content">
 								{htmlToReact(_.get(this.props, 'pageContext.html'))}
 							</div>
-							<button className="button" type="button large" action="/contact">
+							<button
+								component={Link}
+								to="/contact"
+								className="button"
+								type="button xlarge">
 								Start the Conversation
 							</button>
 						</article>
