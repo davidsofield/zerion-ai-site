@@ -1,8 +1,6 @@
 import React from 'react'
 import _ from 'lodash'
-
 import { Link } from 'gatsby'
-
 import { Layout } from '../components/index'
 import { safePrefix, htmlToReact } from '../utils'
 
@@ -41,8 +39,8 @@ export default class Page extends React.Component {
 							<button
 								component={Link}
 								to="/contact"
-								className="button"
-								type="button xlarge">
+								className="button xlarge"
+								type="button">
 								Start the Conversation
 							</button>
 						</article>
