@@ -58,7 +58,7 @@ export default class Contact extends React.Component {
 									</p>
 									<p className="form-row">
 										<label className="form-label">Phone</label>
-										<input type="email" name="phone" className="form-input" />
+										<input type="text" name="phone" className="form-input" />
 									</p>
 									<p className="form-row">
 										<label className="form-label">Message</label>
