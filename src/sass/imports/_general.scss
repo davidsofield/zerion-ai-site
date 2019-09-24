@@ -337,8 +337,7 @@ a.button.large {
   color: #fff;
   display: inline-block;
   font-size: 20px;
-  height: 5em;
-  line-height: 1.5;
+  height: 4.5em;
   padding-left: 45px;
   padding-right: 45px;
   -webkit-transition: opacity .15s ease-in-out;
@@ -348,6 +347,7 @@ a.button.large {
   &:focus,
   &:active {
     box-shadow: none;
+    color: #fff;
     opacity: 0.75;
     outline: 0;
   }
