@@ -36,7 +36,7 @@ export default class Page extends React.Component {
 								{htmlToReact(_.get(this.props, 'pageContext.html'))}
 							</div>
 							<div className="page-cta">
-								<Link to="/contact" className="button large">
+								<Link to="/contact" className="button-cta">
 									Start the Conversation
 								</Link>
 							</div>
