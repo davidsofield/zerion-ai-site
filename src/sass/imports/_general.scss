@@ -330,24 +330,27 @@ a.button.large {
 
 //Button CTA
 .button-cta {
-   background: _palette(accent-green);
+  background: _palette(accent-green);
   border-radius: 3px;
   border: 2px solid _palette(accent-green);
   box-sizing: border-box;
   color: #fff;
   display: inline-block;
-  font-size: 18px;
-  height: 4em;
+  font-size: 20px;
+  height: 5em;
+  line-height: 1.5;
   padding-left: 45px;
   padding-right: 45px;
   -webkit-transition: opacity .15s ease-in-out;
   transition: opacity .15s ease-in-out;
-}
 
-.button-cta {
-  height: auto;
-  padding-bottom: 0.725em;
-  padding-top: 0.725em;
+  &:hover,
+  &:focus,
+  &:active {
+    box-shadow: none;
+    opacity: 0.75;
+    outline: 0;
+  }
 }
 
 //Page CTA
